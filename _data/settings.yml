@@ -1,0 +1,28 @@
+#-------------------------------
+# General Site Settings
+
+title: Yokohama Ramen Joint Website
+description: Japanese Ramen Restuarant in wichita kansas
+email: NausDesign@gmail.com
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Ramen, restuarant, food, wichita, Kansas, soup, pho, 67213, yokohama ramen joint'
+  rel-author: 'https://nausdesign.com'
+  rel-publisher: 'https://nausdesign.com'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics-ua: UA-
+
+#-------------------------------
