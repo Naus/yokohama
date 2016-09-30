@@ -1,5 +1,18 @@
-# Build settings
+# Site settings
+title: Yokohama Ramen Joint
+subtitle: "Ramen Joint in Wichita Kansas"
+# Base URL of site. It should always start with a slash,
+# and never end with a slash. Set it to a blank value if hosting at the
+# root of your server.
+# baseurl: "/" # the subpath of your site
+url: "https://naus.github.io/yokohama/" # the base hostname & protocol for your site
+# baseurl: "/airspace-jekyll"
+# cover: "/assets/cover.png"
+# logo: "/assets/logo.png"
 
+# Build settings
 markdown: kramdown
 permalink: pretty
 
+# Google analytics
+# ga_tracking_id: "UA-XXXX-1"
