@@ -1,3 +1,5 @@
+// NAV //
+
 $(window).on("load resize",function(e) {
   var more = document.getElementById("js-centered-more");
 
@@ -30,6 +32,8 @@ $(window).on("load resize",function(e) {
   });
 });
 
+// Parallax header //
+
 $(document).ready(function() {
   if ($("#js-parallax-window").length) {
     parallax();
@@ -60,6 +64,8 @@ function parallax(){
     plxBackground.css('top', - (plxWindowTopToWindowTop * plxSpeed) + 'px');
   }
 }
+
+// Fadein //
 
 $(document).ready(function() {
   var element = document.getElementById("js-fadeInElement");

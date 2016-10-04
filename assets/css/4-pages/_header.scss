@@ -1,4 +1,4 @@
-$parallax-window-height: 20em;
+$parallax-window-height: 50em;
 $parallax-background-height: $parallax-window-height * 2;
 
 .parallax-window {
@@ -20,7 +20,7 @@ $parallax-background-height: $parallax-window-height * 2;
   background: url("../img/header.jpg") repeat;
   background-position: top;
   background-size: cover;
-  background-color: beige;
+  //background-color: beige;
   height: $parallax-background-height;
   left: 0;
   position: absolute;
