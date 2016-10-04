@@ -9,34 +9,189 @@
   <link href='https://fonts.googleapis.com/css?family=Roboto:400,700,900,400italic,500' rel='stylesheet' type='text/css'>
 </head>
 <body>
-<div class="wrapper">
 
-<section id="header">
-
-  <header>
-    <H1>Yokohama Ramen Joint</H1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#services">Menu</a>
-      <a href="#jobs">Location</a>
-      <a href="#contact">Contact</a>
+<header class="centered-navigation" role="banner">
+  <div class="centered-navigation-wrapper">
+    <a href="javascript:void(0)" class="mobile-logo">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
+    </a>
+    <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
+    <nav role="navigation">
+      <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+        <li class="nav-link"><a href="javascript:void(0)">Home</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Abou Us</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Menu</a></li>
+        <li class="nav-link logo">
+          <a href="javascript:void(0)" class="logo">
+            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
+          </a>
+        </li>
+        <li class="nav-link"><a href="javascript:void(0)">Location</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+        <li class="nav-link"><a href="javascript:void(0)">News Letter</a></li>
+      </ul>
     </nav>
+  </div>
+</header>
 
-    <div class="head-logo"></div>
+<div id="js-parallax-window" class="parallax-window">
+  <div class="parallax-static-content">
+    <h1>Yokohama Ramen Joint</h1>
+  </div>
+  <div id="js-parallax-background" class="parallax-background"></div>
+</div>
 
-  </header>
+<div id="js-fadeInElement" class="fade-in-element">
+  <h3 class="section-title">HIKAWA-MARU</h3>
+  <p>What makes ramen an authentic Japanese food, is its uniquesness and representation.  Each town, each household has it own Ramen recipe.  Yokohama, my hometown has its own, with much history and tradition to represent.  It is the second largest city after Tokyo (once a small fishing village), and served as the base of foreign trade in Japan since 1859 when the country ended its seclusion.  Hokawa-Maru, the city’s beloved ship made her maiden voyage to Seattle in 1930, serving as the bridge between Japan and the U.S. As a Buiness person who appreciates both the American and Japanese cultures, I hope to build a restarunt that can serve as the bridge between two cities; such as Hikawa-Maru: I want to deliver the authentic Yolohama taste to Wichitans.  The ship will be part of the restaurant logo, as a reminder of the history and as a celebration of this international exchange.
+  </p>
+</div>
 
-</section>
-
-<section id="about">
-  <div class="flex">
-     <div class="col-1">
-      <h3 class="section-title">HIKAWA-MARU</h3>
-      <p>What makes ramen an authentic Japanese food, is its uniquesness and representation.  Each town, each household has it own Ramen recipe.  Yokohama, my hometown has its own, with much history and tradition to represent.  It is the second largest city after Tokyo (once a small fishing village), and served as the base of foreign trade in Japan since 1859 when the country ended its seclusion.  Hokawa-Maru, the city’s beloved ship made her maiden voyage to Seattle in 1930, serving as the bridge between Japan and the U.S. As a Buiness person who appreciates both the American and Japanese cultures, I hope to build a restarunt that can serve as the bridge between two cities; such as Hikawa-Maru: I want to deliver the authentic Yolohama taste to Wichitans.  The ship will be part of the restaurant logo, as a reminder of the history and as a celebration of this international exchange.
-      </p>
+<div class="cards">
+  <div class="card">
+    <div class="card-image">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png" alt="">
+    </div>
+    <div class="card-header">
+      First Card
+    </div>
+    <div class="card-copy">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
     </div>
   </div>
-</section>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" alt="">
+    </div>
+    <div class="card-header">
+      Another Card
+    </div>
+    <div class="card-copy">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
+    </div>
+    <div class="card-header">
+      The Last Card
+    </div>
+    <div class="card-copy">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    </div>
+  </div>
+</div>
+
+<!--
+Add the code below to the bottom of your page, just before the closing </body> tag.
+Edit myLatlng and the other variables.
+
+Find syntax for Features that can be styled here:
+
+https://developers.google.com/maps/documentation/javascript/reference#MapTypeStyleFeatureType
+
+Or use a service such as:
+
+http://software.stadtwerk.org/google_maps_colorizr/#
+http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html
+https://developers.google.com/maps/documentation/javascript/tutorial
+-->
+
+<!--
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+  var bittersMap = (function () {
+    var myLatlng = new google.maps.LatLng(59.342457, 18.057340),
+        mapCenter = new google.maps.LatLng(59.340458, 18.057340),
+        mapCanvas = document.getElementById('map_canvas'),
+        mapOptions = {
+          center: mapCenter,
+          zoom: 13,
+          scrollwheel: false,
+          draggable: true,
+          disableDefaultUI: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        },
+        map = new google.maps.Map(mapCanvas, mapOptions),
+        contentString =
+          '<div id="content">'+
+          '<div id="siteNotice">'+
+          '</div>'+
+          '<h1 id="firstHeading" class="firstHeading">thoughtbot</h1>'+
+          '<div id="bodyContent"'+
+          '<p>Sveavägen 98</p>'+
+          '</div>'+
+          '</div>',
+        infowindow = new google.maps.InfoWindow({
+          content: contentString,
+          maxWidth: 300
+        }),
+        marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'thoughtbot (Sweden)'
+        });
+
+    return {
+      init: function () {
+        map.set('styles', [{
+          featureType: 'landscape',
+          elementType: 'geometry',
+          stylers: [
+            { hue: '#ffff00' },
+            { saturation: 30 },
+            { lightness: 10}
+          ]}
+        ]);
+
+        google.maps.event.addListener(marker, 'click', function () {
+          infowindow.open(map,marker);
+        });
+      }
+    };
+  }());
+
+  bittersMap.init();
+</script>
+-->
+<div class="side-image">
+  <div class="images-wrapper"></div>
+    <div class="side-image-content">
+      <div id="map_canvas"></div>
+  </div>
+</div>
+
+<footer class="footer" role="contentinfo">
+  <div class="footer-logo">
+    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
+  </div>
+  <div class="footer-links">
+    <ul>
+      <li><h3>Content</h3></li>
+      <li><a href="javascript:void(0)">About</a></li>
+      <li><a href="javascript:void(0)">Contact</a></li>
+      <li><a href="javascript:void(0)">Products</a></li>
+    </ul>
+    <ul>
+      <li><h3>Follow Us</h3></li>
+      <li><a href="javascript:void(0)">Facebook</a></li>
+      <li><a href="javascript:void(0)">Twitter</a></li>
+      <li><a href="javascript:void(0)">YouTube</a></li>
+    </ul>
+    <ul>
+      <li><h3>Legal</h3></li>
+      <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+      <li><a href="javascript:void(0)">Privacy Policy</a></li>
+    </ul>
+  </div>
+
+  <hr>
+
+  <p>Disclaimer area lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum, nostrum repudiandae saepe.</p>
+</footer>
 
 
 
@@ -52,6 +207,60 @@
   ga('send', 'pageview');
 
 </script>
-</div>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
+<script>
+  var bittersMap = (function () {
+    var myLatlng = new google.maps.LatLng(59.342457, 18.057340),
+        mapCenter = new google.maps.LatLng(59.340458, 18.057340),
+        mapCanvas = document.getElementById('map_canvas'),
+        mapOptions = {
+          center: mapCenter,
+          zoom: 13,
+          scrollwheel: false,
+          draggable: true,
+          disableDefaultUI: true,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        },
+        map = new google.maps.Map(mapCanvas, mapOptions),
+        contentString =
+          '<div id="content">'+
+          '<div id="siteNotice">'+
+          '</div>'+
+          '<h1 id="firstHeading" class="firstHeading">thoughtbot</h1>'+
+          '<div id="bodyContent"'+
+          '<p>Sveavägen 98</p>'+
+          '</div>'+
+          '</div>',
+        infowindow = new google.maps.InfoWindow({
+          content: contentString,
+          maxWidth: 300
+        }),
+        marker = new google.maps.Marker({
+          position: myLatlng,
+          map: map,
+          title: 'thoughtbot (Sweden)'
+        });
+
+    return {
+      init: function () {
+        map.set('styles', [{
+          featureType: 'landscape',
+          elementType: 'geometry',
+          stylers: [
+            { hue: '#ffff00' },
+            { saturation: 30 },
+            { lightness: 10}
+          ]}
+        ]);
+
+        google.maps.event.addListener(marker, 'click', function () {
+          infowindow.open(map,marker);
+        });
+      }
+    };
+  }());
+
+  bittersMap.init();
+</script>
 </body>
 </html>
