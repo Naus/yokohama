@@ -32,12 +32,13 @@
   ga('send', 'pageview');
 
 </script>
-<script> src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI-5bDA_LFf70GQ8klfUz9gG91YgkyQ4g&callback=initMap"
-    async defer></script>
+<script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDI-5bDA_LFf70GQ8klfUz9gG91YgkyQ4g&callback=initMap">
+    </script>
 <script>
   var bittersMap = (function () {
-    var myLatlng = new google.maps.LatLng(37.6837471,-97.349611),
-        mapCenter = new google.maps.LatLng(37.6837471,-97.349611),
+    var myLatlng = new google.maps.LatLng(37.6837471, -97.349611),
+        mapCenter = new google.maps.LatLng(37.6837471, -97.349611),
         mapCanvas = document.getElementById('map_canvas'),
         mapOptions = {
           center: mapCenter,
