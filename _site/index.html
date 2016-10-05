@@ -10,31 +10,32 @@
 </head>
 <body>
 
-<header class="centered-navigation" role="banner">
-  <div class="centered-navigation-wrapper">
-    <a href="javascript:void(0)" class="mobile-logo">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
-    </a>
-    <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
-    <nav role="navigation">
-      <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
-        <li class="nav-link"><a href="javascript:void(0)">Home</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">Abou Us</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">Menu</a></li>
-        <li class="nav-link logo">
-          <a href="javascript:void(0)" class="logo">
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
-          </a>
-        </li>
-        <li class="nav-link"><a href="javascript:void(0)">Location</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
-        <li class="nav-link"><a href="javascript:void(0)">News Letter</a></li>
-      </ul>
-    </nav>
-  </div>
-</header>
-
 <div id="js-parallax-window" class="parallax-window">
+
+  <header class="centered-navigation" role="banner">
+    <div class="centered-navigation-wrapper">
+      <a href="javascript:void(0)" class="mobile-logo">
+        <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
+      </a>
+      <a href="javascript:void(0)" id="js-centered-navigation-mobile-menu" class="centered-navigation-mobile-menu">MENU</a>
+      <nav role="navigation">
+        <ul id="js-centered-navigation-menu" class="centered-navigation-menu show">
+          <li class="nav-link"><a href="javascript:void(0)">Home</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">Abou Us</a></li>
+          <li class="nav-link"><a href="#menu">Menu</a></li>
+          <li class="nav-link logo">
+            <a href="javascript:void(0)" class="logo">
+              <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_square.png" alt="Logo image">
+            </a>
+          </li>
+          <li class="nav-link"><a href="javascript:void(0)">Location</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">Contact</a></li>
+          <li class="nav-link"><a href="javascript:void(0)">News Letter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
   <div class="parallax-static-content">
     <h1>Yokohama Ramen Joint</h1>
   </div>
@@ -43,17 +44,21 @@
 
 <div id="js-fadeInElement" class="fade-in-element">
   <h3 class="section-title">HIKAWA-MARU</h3>
+  <hr>
   <p>What makes ramen an authentic Japanese food, is its uniquesness and representation.  Each town, each household has it own Ramen recipe.  Yokohama, my hometown has its own, with much history and tradition to represent.  It is the second largest city after Tokyo (once a small fishing village), and served as the base of foreign trade in Japan since 1859 when the country ended its seclusion.  Hokawa-Maru, the city’s beloved ship made her maiden voyage to Seattle in 1930, serving as the bridge between Japan and the U.S. As a Buiness person who appreciates both the American and Japanese cultures, I hope to build a restarunt that can serve as the bridge between two cities; such as Hikawa-Maru: I want to deliver the authentic Yolohama taste to Wichitans.  The ship will be part of the restaurant logo, as a reminder of the history and as a celebration of this international exchange.
   </p>
 </div>
 
+  <div id="menu" class="menuBG">
+  <h3 class="section-title">MENU</h3>
+  <hr>
 <div class="cards">
   <div class="card">
     <div class="card-image">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png" alt="">
+      <img src="assets/img/menu/menu1.jpg" alt="Image of menu">
     </div>
     <div class="card-header">
-      First Card
+      Menu
     </div>
     <div class="card-copy">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
@@ -62,10 +67,10 @@
 
   <div class="card">
     <div class="card-image">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-4.png" alt="">
+      <img src="assets/img/menu/menu2.jpg" alt="Image of menu">
     </div>
     <div class="card-header">
-      Another Card
+      Appetizers
     </div>
     <div class="card-copy">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga, officiis sunt neque facilis culpa molestiae necessitatibus delectus veniam provident.</p>
@@ -74,15 +79,53 @@
 
   <div class="card">
     <div class="card-image">
-      <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains-3.png" alt="">
+      <img src="assets/img/menu/menu3.jpg" alt="Image of menu">
     </div>
     <div class="card-header">
-      The Last Card
+      Noodles
     </div>
     <div class="card-copy">
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
     </div>
   </div>
+
+<div class="card">
+  <div class="card-image">
+    <img src="assets/img/menu/menu4.jpg" alt="Image of menu">
+  </div>
+  <div class="card-header">
+    Toppings and Extras
+  </div>
+  <div class="card-copy">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-image">
+    <img src="assets/img/menu/menu5.jpg" alt="Image of menu">
+  </div>
+  <div class="card-header">
+    Salads
+  </div>
+  <div class="card-copy">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-image">
+    <img src="assets/img/menu/menu6.jpg" alt="Image of menu">
+  </div>
+  <div class="card-header">
+    Desserts
+  </div>
+  <div class="card-copy">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+  </div>
+</div>
+
+</div>
 </div>
 
 <!--
