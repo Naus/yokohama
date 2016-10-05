@@ -30,6 +30,9 @@
   margin: 0 $card-margin $card-margin $card-margin;
   position: relative;
   transition: all 0.2s ease-in-out;
+  @media (max-width: 700px){
+    margin: 0 1em 1em 1em;
+  }
 
   .card-image {
     background-color: $card-image-hover-color;
