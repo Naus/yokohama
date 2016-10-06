@@ -1,8 +1,9 @@
 @charset "UTF-8";
 button, input[type="button"], input[type="reset"], input[type="submit"] {
   appearance: none;
-  background-color: #1565c0;
-  border: 0;
+  background-color: red;
+  border-color: white;
+  border-width: medium;
   border-radius: 3px;
   color: #fff;
   cursor: pointer;
@@ -19,13 +20,13 @@ button, input[type="button"], input[type="reset"], input[type="submit"] {
   vertical-align: middle;
   white-space: nowrap; }
   button:hover, button:focus, input[type="button"]:hover, input[type="button"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="submit"]:hover, input[type="submit"]:focus {
-    background-color: #11519a;
+    background-color: #cc0000;
     color: #fff; }
   button:disabled, input[type="button"]:disabled, input[type="reset"]:disabled, input[type="submit"]:disabled {
     cursor: not-allowed;
     opacity: 0.5; }
     button:disabled:hover, input[type="button"]:disabled:hover, input[type="reset"]:disabled:hover, input[type="submit"]:disabled:hover {
-      background-color: #1565c0; }
+      background-color: darkred; }
 
 fieldset {
   background-color: transparent;
@@ -990,6 +991,30 @@ hr {
       color: #333;
       line-height: 1.5;
       margin-bottom: 3em; }
+
+#newsletter {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', Fira Sans, sans-serif; }
+  #newsletter p {
+    margin: 0;
+    padding: 0 0 1.5em 0; }
+  #newsletter h3 {
+    color: white;
+    padding: 1em 0 0 0;
+    margin: 0 0; }
+  #newsletter #mc_embed_signup input.email {
+    height: 40px;
+    color: white; }
+
+#mc_embed_signup_scroll #mce-EMAIL {
+  color: white;
+  background-color: red;
+  border-width: medium;
+  border-color: white;
+  font-family: 'Roboto', Fira Sans, sans-serif;
+  font-weight: bold; }
 
 .footer {
   background: black;

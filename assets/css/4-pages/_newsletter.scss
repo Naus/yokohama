@@ -1,0 +1,35 @@
+#newsletter {
+  background-color: red;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', Fira Sans, sans-serif;
+
+  p {
+    margin: 0;
+    padding: 0 0 1.5em 0;
+  }
+
+  h3 {
+    color: white;
+    padding: 1em 0 0 0;
+    margin: 0 0;
+  }
+
+  #mc_embed_signup input.email {
+    height: 40px;
+    color: white;
+  }
+
+}
+
+#mc_embed_signup_scroll{
+
+  #mce-EMAIL{
+    color: white;
+    background-color: red;
+    border-width: medium;
+    border-color: white;
+    font-family: 'Roboto', Fira Sans, sans-serif;
+    font-weight: bold;
+  }
+}
