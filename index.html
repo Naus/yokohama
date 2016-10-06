@@ -32,17 +32,15 @@
   ga('send', 'pageview');
 
 </script>
-<script async defer
-  src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBaaL18QJp8lTYxy-96rYwtlGKPBV9G_t8&callback=initMap">
-</script>
+<script src="https://maps.googleapis.com/maps/api/js"></script>
 <script>
   var bittersMap = (function () {
-    var myLatlng = new google.maps.LatLng(37.6837471, -97.349611),
-        mapCenter = new google.maps.LatLng(37.6837471, -97.349611),
+    var myLatlng = new google.maps.LatLng(37.6837471,-97.349611),
+        mapCenter = new google.maps.LatLng(37.6837471,-97.349611),
         mapCanvas = document.getElementById('map_canvas'),
         mapOptions = {
           center: mapCenter,
-          zoom: 13,
+          zoom: 15,
           scrollwheel: false,
           draggable: true,
           disableDefaultUI: true,
