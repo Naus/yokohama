@@ -106,15 +106,16 @@
       width: 50%;
     }
 
-    h1 {
+    h3 {
       color: $base-font-color;
-      text-align: left;
+      text-align: center;
       text-transform: capitalize;
     }
 
     p {
       color: $base-font-color;
       line-height: $base-line-height;
+      text-align: center;
     }
 
     .modal-intro {
@@ -124,9 +125,6 @@
     .modal-content {
       color: $base-font-color;
 
-      @include media($medium-screen) {
-        columns: 2 8em;
-      }
     }
 
     a.cta {

@@ -878,20 +878,18 @@ hr {
   @media screen and (min-width: 53.75em) {
     .modal .modal-inner {
       width: 50%; } }
-  .modal .modal-inner h1 {
+  .modal .modal-inner h3 {
     color: #333;
-    text-align: left;
+    text-align: center;
     text-transform: capitalize; }
   .modal .modal-inner p {
     color: #333;
-    line-height: 1.5; }
+    line-height: 1.5;
+    text-align: center; }
   .modal .modal-inner .modal-intro {
     margin-bottom: 1em; }
   .modal .modal-inner .modal-content {
     color: #333; }
-    @media screen and (min-width: 40em) {
-      .modal .modal-inner .modal-content {
-        columns: 2 8em; } }
   .modal .modal-inner a.cta {
     color: #fff;
     display: inline-block;
