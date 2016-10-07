@@ -906,6 +906,20 @@ hr {
 .modal-open {
   overflow: hidden; }
 
+.texture {
+  height: 5em;
+  width: 100%; }
+  .texture .texture-normal {
+    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/diagonal-noise.png"), linear-gradient(180deg, #e1f2f1, #bae0de), center no-repeat #e1f2f1 scroll;
+    float: left;
+    height: 5em;
+    width: 50%; }
+  .texture .texture-inverted {
+    background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/diagonal-noise.png"), linear-gradient(180deg, #e1f2f1, #bae0de), center no-repeat #e1f2f1 scroll;
+    float: left;
+    height: 5em;
+    width: 50%; }
+
 .parallax-window {
   height: 40em;
   overflow: hidden;
@@ -992,6 +1006,9 @@ hr {
   text-align: center;
   color: white;
   font-family: 'Roboto', Fira Sans, sans-serif; }
+  @media (max-width: 700px) {
+    #newsletter {
+      padding: 0 1em 0 1em; } }
   #newsletter p {
     margin: 0;
     padding: 0 0 1.5em 0; }
