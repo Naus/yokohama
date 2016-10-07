@@ -23,7 +23,7 @@
   }
 
   label img {
-    border-radius: $modal-trigger-image-width / 2;
+    //border-radius: $modal-trigger-image-width / 2;
     display: block;
     max-width: $modal-trigger-image-width;
   }
@@ -33,7 +33,7 @@
   }
 
   .modal-trigger {
-    padding: 0.8em 1em;
+    //padding: 0.8em 1em;
   }
 
   .modal-fade-screen { // overlay
@@ -153,5 +153,3 @@
 .modal-open {
   overflow: hidden;
 }
-
-// Based on code by Kasper Mikiewicz

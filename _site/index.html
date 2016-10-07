@@ -52,22 +52,27 @@
   <div id="menu" class="menuBG">
   <h3 class="section-title">MENU</h3>
   <hr>
+<div class="modal">
 <div class="cards">
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/menu/Menu1.jpg" alt="Image of menu">
+      <label for="modal-1">
+        <div class="modal-trigger"><img src="assets/img/menu/Menu1.jpg" alt="Image of menu"></div>
+      </label>
     </div>
     <div class="card-header">
       Menu
     </div>
     <div class="card-copy">
-      <p>Page one.</p>
+      <p>Page One.</p>
     </div>
   </div>
 
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/menu/Menu2.jpg" alt="Image of menu">
+      <label for="modal-2">
+        <div class="modal-trigger"><img src="assets/img/menu/Menu2.jpg" alt="Image of menu"></div>
+      </label>
     </div>
     <div class="card-header">
       Appetizers
@@ -79,7 +84,9 @@
 
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/menu/Menu3.jpg" alt="Image of menu">
+      <label for="modal-3">
+        <div class="modal-trigger"><img src="assets/img/menu/Menu3.jpg" alt="Image of menu"></div>
+      </label>
     </div>
     <div class="card-header">
       Noodles
@@ -91,7 +98,9 @@
 
 <div class="card">
   <div class="card-image">
-    <img src="assets/img/menu/Menu4.jpg" alt="Image of menu">
+    <label for="modal-4">
+      <div class="modal-trigger"><img src="assets/img/menu/Menu4.jpg" alt="Image of menu"></div>
+    </label>
   </div>
   <div class="card-header">
     Toppings and Extras
@@ -103,7 +112,9 @@
 
 <div class="card">
   <div class="card-image">
-    <img src="assets/img/menu/Menu5.jpg" alt="Image of menu">
+    <label for="modal-5">
+      <div class="modal-trigger"><img src="assets/img/menu/Menu5.jpg" alt="Image of menu"></div>
+    </label>
   </div>
   <div class="card-header">
     Salads
@@ -115,7 +126,9 @@
 
 <div class="card">
   <div class="card-image">
-    <img src="assets/img/menu/Menu6.jpg" alt="Image of menu">
+    <label for="modal-6">
+      <div class="modal-trigger"><img src="assets/img/menu/Menu6.jpg" alt="Image of menu"></div>
+    </label>
   </div>
   <div class="card-header">
     Desserts
@@ -124,6 +137,65 @@
     <p>Page six.</p>
   </div>
 </div>
+
+<!-- The Menu Modals -->
+
+  <input class="modal-state" id="modal-1" type="checkbox" />
+  <div class="modal-fade-screen">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1"></div>
+      <h3>Menu</h3>
+      <p class="modal-content"><img src="assets/img/menu/Menu1.jpg" alt="Image of menu"></p>
+    </div>
+  </div>
+
+  <input class="modal-state" id="modal-2" type="checkbox" />
+  <div class="modal-fade-screen">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1"></div>
+      <h3>Appetizers</h3>
+      <p class="modal-content"><img src="assets/img/menu/Menu2.jpg" alt="Image of menu"></p>
+    </div>
+  </div>
+
+  <input class="modal-state" id="modal-3" type="checkbox" />
+  <div class="modal-fade-screen">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1"></div>
+      <h3>Noodles</h3>
+      <p class="modal-content"><img src="assets/img/menu/Menu3.jpg" alt="Image of menu"></p>
+    </div>
+  </div>
+
+  <input class="modal-state" id="modal-4" type="checkbox" />
+  <div class="modal-fade-screen">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1"></div>
+      <h3>Toppings and Extras</h3>
+      <p class="modal-content"><img src="assets/img/menu/Menu4.jpg" alt="Image of menu"></p>
+    </div>
+  </div>
+
+  <input class="modal-state" id="modal-5" type="checkbox" />
+  <div class="modal-fade-screen">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1"></div>
+      <h3>Salads</h3>
+      <p class="modal-content"><img src="assets/img/menu/Menu5.jpg" alt="Image of menu"></p>
+    </div>
+  </div>
+
+  <input class="modal-state" id="modal-6" type="checkbox" />
+  <div class="modal-fade-screen">
+    <div class="modal-inner">
+      <div class="modal-close" for="modal-1"></div>
+      <h3>Desserts</h3>
+      <p class="modal-content"><img src="assets/img/menu/Menu6.jpg" alt="Image of menu"></p>
+    </div>
+  </div>
+
+</div>
+
 
 </div>
 </div>

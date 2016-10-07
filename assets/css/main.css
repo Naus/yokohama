@@ -807,13 +807,10 @@ hr {
   cursor: pointer;
   margin-bottom: 0; }
 .modal label img {
-  border-radius: 150px;
   display: block;
   max-width: 300px; }
 .modal .modal-state {
   display: none; }
-.modal .modal-trigger {
-  padding: 0.8em 1em; }
 .modal .modal-fade-screen {
   position: fixed;
   top: 0;
