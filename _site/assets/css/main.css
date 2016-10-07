@@ -808,7 +808,7 @@ hr {
   margin-bottom: 0; }
 .modal label img {
   display: block;
-  max-width: 300px; }
+  width: 100%; }
 .modal .modal-state {
   display: none; }
 .modal .modal-fade-screen {

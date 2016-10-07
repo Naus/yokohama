@@ -25,7 +25,8 @@
   label img {
     //border-radius: $modal-trigger-image-width / 2;
     display: block;
-    max-width: $modal-trigger-image-width;
+    //max-width: $modal-trigger-image-width;
+    width: 100%;
   }
 
   .modal-state {
