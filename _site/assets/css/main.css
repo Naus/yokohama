@@ -1036,7 +1036,9 @@ hr {
   font-weight: bold; }
 
 .footer {
-  background: #4d4d4d;
+  background: black;
+  background-image: url("../img/yokonightlight.png");
+  background-size: cover;
   padding: 3em 1.618em;
   width: 100%; }
   .footer .footer-logo {
