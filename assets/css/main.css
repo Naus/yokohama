@@ -1026,6 +1026,12 @@ hr {
   #newsletter #mc_embed_signup input.email {
     height: 40px;
     color: white; }
+  #newsletter hr {
+    border: solid white;
+    border-width: 3px 0 0;
+    clear: both;
+    margin: 10px 140px 30px;
+    height: 0; }
 
 #mc_embed_signup_scroll #mce-EMAIL {
   color: white;
@@ -1034,6 +1040,29 @@ hr {
   border-color: white;
   font-family: 'Roboto', Fira Sans, sans-serif;
   font-weight: bold; }
+
+#contact {
+  background-color: black;
+  background-image: url("../img/yokonightlight.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', Fira Sans, sans-serif;
+  padding-bottom: 40px; }
+  @media (max-width: 700px) {
+    #contact {
+      padding: 0 1em 40px 1em; } }
+  #contact p {
+    font-size: 24px;
+    margin: 0;
+    padding: 0 0 1.5em 0; }
+  #contact h3 {
+    color: white;
+    padding: 1em 0 0 0;
+    margin: 0 0; }
+  #contact h4 {
+    color: #999;
+    padding: 1em 0 0 0; }
 
 .footer {
   background: #4d4d4d;

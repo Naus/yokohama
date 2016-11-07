@@ -1,0 +1,29 @@
+#contact {
+  background-color: black;
+  background-image: url("../img/yokonightlight.png");
+  background-size: cover;
+  text-align: center;
+  color: white;
+  font-family: 'Roboto', Fira Sans, sans-serif;
+  padding-bottom: 40px;
+  @media (max-width: 700px){
+    padding: 0 1em 40px 1em;
+  }
+
+  p {
+    font-size: 24px;
+    margin: 0;
+    padding: 0 0 1.5em 0;
+  }
+
+  h3 {
+    color: white;
+    padding: 1em 0 0 0;
+    margin: 0 0;
+  }
+
+  h4 {
+    color: #999;
+    padding: 1em 0 0 0;
+  }
+}
