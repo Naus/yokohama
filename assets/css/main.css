@@ -494,16 +494,16 @@ hr {
 .centered-navigation {
   background-color: rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(240, 240, 240, 0.5);
-  min-height: 60px;
+  min-height: 80px;
   width: 100%;
   z-index: 9999; }
   .centered-navigation .mobile-logo {
     display: inline;
     float: left;
-    max-height: 60px;
+    max-height: 80px;
     padding-left: 1em; }
     .centered-navigation .mobile-logo img {
-      max-height: 60px;
+      max-height: 80px;
       opacity: 0.6;
       padding: 0.8em 0; }
     @media screen and (min-width: 53.75em) {
@@ -513,7 +513,7 @@ hr {
     color: rgba(51, 51, 51, 0.7);
     display: block;
     float: right;
-    line-height: 60px;
+    line-height: 80px;
     margin: 0;
     padding-right: 1em;
     text-decoration: none;
@@ -558,7 +558,7 @@ hr {
   .centered-navigation ul li.nav-link {
     background: rgba(255, 255, 255, 0.5);
     display: block;
-    line-height: 60px;
+    line-height: 80px;
     overflow: hidden;
     padding-right: 1em;
     text-align: right;
@@ -575,7 +575,7 @@ hr {
       .centered-navigation ul li.nav-link {
         background: transparent;
         display: inline;
-        line-height: 60px; }
+        line-height: 80px; }
         .centered-navigation ul li.nav-link a {
           padding-right: 1em; } }
   .centered-navigation li.logo.nav-link {
@@ -619,7 +619,7 @@ hr {
         .centered-navigation li.more > a {
           margin-right: 1em; } }
       .centered-navigation li.more > a::after {
-        content: "›";
+        content: "ΓÇ║";
         font-size: 1.2em;
         position: absolute;
         right: 0.5em; }
@@ -650,7 +650,7 @@ hr {
       padding-right: 0; }
       @media screen and (min-width: 53.75em) {
         .centered-navigation ul.submenu li {
-          line-height: 46.15385px; }
+          line-height: 61.53846px; }
           .centered-navigation ul.submenu li:first-child > a {
             border-top-left-radius: 3px;
             border-top-right-radius: 3px; }
@@ -932,6 +932,11 @@ hr {
   padding: 8em 0;
   position: relative;
   z-index: 9; }
+  .parallax-static-content img {
+    height: 200px; }
+    @media (max-width: 700px) {
+      .parallax-static-content img {
+        height: 90px; } }
 
 .parallax-background {
   background: url("../img/header.jpg") repeat;
@@ -1029,14 +1034,14 @@ hr {
   font-weight: bold; }
 
 .footer {
-  background: black;
+  background: #4d4d4d;
   padding: 3em 1.618em;
   width: 100%; }
   .footer .footer-logo {
     margin-bottom: 2em;
     text-align: center; }
     .footer .footer-logo img {
-      height: 3em; }
+      height: 10em; }
   .footer .footer-links {
     display: flex;
     flex-wrap: wrap;

@@ -3,14 +3,14 @@
   $action-color: #477DCA !default;
   $medium-screen: 40em !default;
   $large-screen: 53.75em !default;
-  $footer-background: desaturate(darken(black, 20%), 30%);
+  $footer-background: desaturate(darken(gray, 20%), 30%);
   $footer-color: white;
   $footer-link-color: transparentize($footer-color, 0.6);
   $footer-disclaimer-color: transparentize($footer-color, 0.6);
 
   //background: url("../img/yokonightlight.jpg");
   //background-size: cover;
-  background: $footer-background; 
+  background: $footer-background;
   padding: ($base-spacing * 2) $gutter;
   width: 100%;
 
@@ -19,7 +19,7 @@
     text-align: center;
 
     img {
-      height: 3em;
+      height: 10em;
     }
   }
 
