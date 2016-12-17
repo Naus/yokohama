@@ -467,7 +467,7 @@ hr {
 
 .col-1 {
   max-width: 1500px;
-  margin: 0 25px; }
+  margin: 0 50px; }
 
 .col-2 {
   max-width: 750px;
@@ -619,7 +619,7 @@ hr {
         .centered-navigation li.more > a {
           margin-right: 1em; } }
       .centered-navigation li.more > a::after {
-        content: "ΓÇ║";
+        content: "›";
         font-size: 1.2em;
         position: absolute;
         right: 0.5em; }
@@ -962,6 +962,46 @@ hr {
   @media (max-width: 700px) {
     .menuBG {
       padding: 2em 1em; } }
+
+.bullets {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1em;
+  margin-bottom: 1.5;
+  overflow: auto;
+  padding: 0; }
+  .bullets .bullet {
+    flex-basis: 20em;
+    flex-grow: 1; }
+  .bullets .bullet-icon {
+    background: red;
+    border-radius: 50%;
+    float: left;
+    height: 3.5em;
+    padding: 0.875em;
+    width: 3.5em; }
+  .bullets .bullet-icon-1 {
+    background: red; }
+  .bullets .bullet-icon-2 {
+    background: red; }
+  .bullets .bullet-icon-3 {
+    background: red; }
+  .bullets .bullet-content {
+    margin-bottom: 2em;
+    margin-left: 4.9em; }
+  .bullets h2 {
+    border-bottom: 1px solid rgba(255, 0, 0, 0.5);
+    display: inline-block;
+    font-size: 1.4em;
+    margin: 0 0 0.58333em 0;
+    padding-top: 0.5em; }
+  .bullets li {
+    list-style: none; }
+  .bullets p {
+    color: #333;
+    line-height: 1.5; }
+  .bullets img {
+    max-width: 100%; }
 
 .side-image {
   background: #F9F9F9; }
