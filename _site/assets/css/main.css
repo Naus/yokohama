@@ -1013,6 +1013,7 @@ hr {
       line-height: 1.5em;
       margin-bottom: 1.5em; }
   .device-background .device {
+    display: none;
     position: relative; }
     @media screen and (min-width: 53.75em) {
       .device-background .device {
