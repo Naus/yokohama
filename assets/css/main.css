@@ -409,6 +409,32 @@ a {
   a:hover, a:focus {
     color: #40a6ff; }
 
+.download-cta {
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  padding: 0.4rem 2rem;
+  font-weight: 700;
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  z-index: 2;
+  position: relative;
+  background-color: rgba(255, 65, 54, 0.6); }
+  .download-cta:hover {
+    color: #fff;
+    background-color: #FF4136; }
+  @media (max-width: 440px) {
+    .download-cta {
+      font-size: 14px;
+      padding: 0.3rem 1.8rem; } }
+  @media (max-width: 380px) {
+    .download-cta {
+      font-size: 12px;
+      padding: 0.3rem 1.8rem; } }
+
 .gigantic, .huge, .large, .bigger, .big,
 h1, h2, h3, h4, h5, h6 {
   color: #222;
@@ -962,6 +988,54 @@ hr {
   @media (max-width: 700px) {
     .menuBG {
       padding: 2em 1em; } }
+
+.device-background {
+  background: url("../img/deliveryBG.jpg"), linear-gradient(10deg, #0A120D, #162C4C), no-repeat #162C4C scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 20em;
+  width: 100%; }
+  .device-background .device-text {
+    padding: 2em; }
+    @media screen and (min-width: 53.75em) {
+      .device-background .device-text {
+        float: left;
+        max-width: 50%;
+        padding: 4em; } }
+    .device-background .device-text h4 {
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      color: white;
+      font-size: 1.5em;
+      margin: 0 0 0.5em 0;
+      padding-bottom: 0.5em; }
+    .device-background .device-text p {
+      color: white;
+      line-height: 1.5em;
+      margin-bottom: 1.5em; }
+  .device-background .device {
+    display: none;
+    position: relative; }
+    @media screen and (min-width: 53.75em) {
+      .device-background .device {
+        background: #1a1a1a;
+        border-radius: 2em;
+        box-shadow: 1px 0 #343434, 4px 0 #060606, 7px 0 #010101, 10px 0 #010101, 13px 0 #010101;
+        display: block;
+        float: right;
+        margin-bottom: -12em;
+        margin-right: 5em;
+        padding: 5em 0;
+        transform: perspective(800px) translateX(0) translateY(-100px) translateZ(50px) rotateX(0) rotateY(-20deg) rotateZ(0);
+        width: 14.8em;
+        z-index: 99999; }
+        .device-background .device .screen {
+          height: 25em;
+          width: 14em;
+          background-image: url("../img/cosmin_capitanu_screen.jpg");
+          background-size: cover;
+          border-radius: 0.2em;
+          box-shadow: inset 0 1px 8px rgba(0, 0, 0, 0.5);
+          margin: auto; } }
 
 .bullets {
   display: flex;
